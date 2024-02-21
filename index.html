@@ -44,12 +44,15 @@
     </head>
 
     <body>
+        <!-- Name of the game-->
         <h1>Rock | Paper | Scissors | Lizard | Spock Game</h1>
+
+        <!-- Rules of the game-->
 
         <h2> Rock Paper Scissors Lizard Spock is a variation of Rock Paper Scissors made popular by the television show The Big Bang Theory.</h2>
             
             <h3>The rules are simple:</h3>
-            <ul>
+            <ul style="list-style-type: none;">
                 <li>Scissors cuts paper.</li>
                 <li>Paper covers rock.</li>
                 <li>Rock crushes lizard.</li>
@@ -61,8 +64,19 @@
                 <li>Spock vaporizes rock.</li>
                 <li>Rock crushes scissors.</li>
             </ul>
-        </h3>
+        
+        <!-- score -->
+        <div class = "score">
+            <!-- enter username-->
+            <button onclick = "enterName()">Enter your name</button>
+            <p class = "user" id="userName">
+            </p>
 
+
+
+        </div>
+
+        <script src="assets/script.js"></script>
 
     </body>
     </html>
