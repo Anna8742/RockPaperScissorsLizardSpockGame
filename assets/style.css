@@ -1,4 +1,10 @@
 .image {
-    width: 20vw;
-    height: 25vw;
+    width: 10vw;
+    height: 15vw;
+    margin: 3vw;
+}
+
+button {
+    width: 12vw;
+    height: 17vw;
 }
