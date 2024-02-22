@@ -6,7 +6,7 @@ function enterName() {
     if (user == null || user == "") {
         text = "Cancelled the game.";
     } else {
-        text = user + ":";
+        text = user + " ";
     }
     document.getElementById("userName").innerHTML = text.toUpperCase();
 }
