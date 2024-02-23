@@ -9,4 +9,5 @@ function enterName() {
         text = user + " ";
     }
     document.getElementById("userName").innerHTML = text.toUpperCase();
+    document.getElementById("player").innerHTML = text.toUpperCase();
 }

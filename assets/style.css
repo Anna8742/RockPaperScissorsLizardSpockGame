@@ -5,9 +5,16 @@
 
 }
 
+button {
+    cursor: pointer;
+  }
+
 .button-option {
     width: auto;
     height: auto;
+    border-color: #e834eb;
+    border-radius:10%;
+    margin:0.5%;
 
 }
 
