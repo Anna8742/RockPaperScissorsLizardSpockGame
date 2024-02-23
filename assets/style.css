@@ -1,20 +1,34 @@
-.image {
-    width: 6vw;
-    height: 6vw;
-    margin: 1vw;
+/* override default styles of a browser */
 
-}
-
-button {
-    cursor: pointer;
-  }
-
-.button-option {
-    width: auto;
-    height: auto;
-    border-color: #e834eb;
-    border-radius:10%;
-    margin:0.5%;
-
-}
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    
+    /* image  */
+    .image {
+        width: 6vw;
+        height: 6vw;
+        margin: 1vw;
+    
+    }
+    
+    /* button option */
+    .button-option {
+        width: auto;
+        height: auto;
+        border-color: #e834eb;
+        border-radius:10%;
+        margin:0.5%;
+    
+        
+    
+    }
+    /* button */
+    button {
+        cursor: pointer;
+    
+      }
