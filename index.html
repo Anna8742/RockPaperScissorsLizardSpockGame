@@ -59,6 +59,16 @@
     <span class="computer-score" id="computer-score">0</span>
   </div>
 
+  <!-- Choices of computer and user -->
+  <div class="choice">CHOICE
+    <!-- Display username and choice -->
+    <div class="player" id="player"></div>
+    <span class="player-choice" id="result"></span>
+    <div class="computer">COMPUTER</div>
+    <span class="comp-choice" id="comp-choice"></span>
+  </div>
+
+  <!-- Rules of games -->
   <div class="rules">
     <div class="list-of-rules">
       <h3>The rules are simple:</h3>
@@ -75,56 +85,15 @@
           <li>Rock crushes scissors.</li>
         </ul>
     </div>
-    <div class="image-rules"><img src="images/rules.png" ></div>
+    <!-- image with rules -->
+    <div class="image-rules"><img src="images/rules.png" alt="image showing the rules of the game"></div>
   </div>
 
-  <!-- score -->
-  <div class="score">
-    <!-- enter username-->
-
-    <button onclick="enterName()">Enter your name</button>
-    <!-- display username and score -->
-    <p class="user" id="userName"> </p>
-    <span class="user-points">0</span>
-
-    <!-- display computer and it's score -->
-    <div class="computer">COMPUTER </div>
-    <span class="computer-score">0</span>
+  <div class="footer" id="footer">
+   <i>Copyright: Anna</i>
   </div>
 
-  <!-- Section with options to select -->
-  <section class="options">
-    <button class="button-option"><img src="assets/images/lizard.png " class="image" alt="image of lizard"></button>
-    <button class="button-option"><img src="assets/images/paper.png" class="image" alt="image of paper"></button>
-    <button class="button-option"><img src="assets/images/rock.png" class="image" alt="image of rock"></button>
-    <button class="button-option"><img src="assets/images/scissors.png " class="image" alt="image of scissors"></button>
-    <button class="button-option"><img src="assets/images/spock.png" class="image" alt="image of spock"></button>
-  </section>
-
-  <!-- score -->
-  <div class = "score">
-    SCORE
-    <!-- display username and score -->
-    <p class = "user" id="userName"> </p>
-    <span class = "user-points" id="user-points">0</span>
-    <!-- display computer and it's score -->
-    <div class = "computer" id="computer1" style="margin-left: auto;">COMPUTER </div>
-    <span class="computer-score" id="computer-score">0</span>
-  </div>
-
-  <!-- choices of computer and user -->
-  <div class="choice">
-    <!-- display username and choice -->
-    <div class="player" id="player"></div>
-    <span class="player-choice" id="result"></span>
-    <div class="computer">COMPUTER</div>
-    <span class="comp-choice" id="comp-choice"></span>
-  </div>
-
-  
-
-  <script src="assets/script.js"></script>
+  <script src="script.js"></script>
 
 </body>
-
 </html>
