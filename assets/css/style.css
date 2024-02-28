@@ -125,6 +125,14 @@ selection-section {
     border-radius: 10px;
   }
 
+/* Player */
+.player {
+    background:#d899da;
+    padding: 0.625rem 1.25rem;
+    color: white;
+    border-radius: 0.625rem;
+  }
+
   /* Style for section displaying selected choices" */
   .choice {
     gap: 30px;
