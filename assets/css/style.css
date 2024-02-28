@@ -284,13 +284,18 @@ selection-section {
             color:#e834eb
          }
         #timer{
-            margin-bottom: 5%;
+            
+            margin-bottom: 20px;
          }
         #gameCounter{
             margin-bottom: 20px;
          }
+         #result_of_choice {
+            margin-bottom: 20px;
+         }
         .selection-section{
-            margin-bottom:5%;
+            margin-top: 20px;
+            margin-bottom:20px;
             flex-direction: column;
             align-items: center;
          }
