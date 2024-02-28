@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     align-items:center;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "slnt" 0;
     color:#e834eb;
@@ -201,68 +200,8 @@ selection-section {
             text-align: center;
             padding: 10px 0;
         }
-        
-    /* Media queries for screen of width: 375px and of 667px height */
-    @media only screen  and (device-width: 375px) 
-                        and (device-height: 667px) {
-                            /* Header */
-                            .header {
-                                flex-direction: row;
-                                height: 17vw !important;
-                            }
-                            /* Restart button */
-                            #restartButton{
-                                margin-left: 30px;
-                                text-wrap: nowrap;
-                            }
-                                
-                                    
-                            #ahref {
-                            margin-left: 10px;
-                            }
-                        }
 
-    /* Media queries for screen of width: 390px and of 884px height */
-    @media only screen and (device-width: 390px) and (device-height: 844px) {
-            /* Body */
-            .body {
-                font-size: 1rem !important;
-            }
-            /* Header */
-            .header {
-                flex-direction: row;
-                height: 17vw !important;
-            }
-            #ahref {
-                margin-left: 10px;
-                padding: auto;
-                color: #d899da;
-                letter-spacing: 1px;
-            }
-            /* Restart button */
-            #restartButton{
-                margin-left: 30px;
-                text-wrap: nowrap;
-            }
-    }
-    /* Media queries for screen of width: 360px and of 740px height */
-    @media only screen and (device-width: 360px) and (device-height: 740px) {
-        /* Header */
-        .header {
-            flex-direction: row;
-            height: 19vw !important;
-        }
-        #ahref {
-            margin-left: 10px !important;
-            padding: auto !important;
-            color: #d899da;
-            letter-spacing: 1px !important;
-       }
-        #restartButton{
-            margin-left: 30px;
-            text-wrap: nowrap;
-       }
-    }
+    
     /* Media queries for screen max-width: 600px */
     @media screen and (max-width: 600px){
         .rules{
