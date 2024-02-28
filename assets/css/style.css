@@ -285,6 +285,12 @@ selection-section {
             margin:0.5%;
             background-color: white;     
         }
+        /* image  */
+        .image {
+            width: 6vw;
+            height: 6vw;
+            margin: 1vw;
+        }
         .score {
             flex-direction: column;
             align-items: center;
