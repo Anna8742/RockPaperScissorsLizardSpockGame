@@ -80,7 +80,11 @@ button {
 .button-option:hover {
     background-color: #eca3d5;
 }
-/* Section where all the buttons with games sections */
+/* Section of the buttons with game options */
+.options{
+    width: 50%;
+    }
+
 selection-section {
     background-color: white;
     border-color: #e834eb;
@@ -120,3 +124,213 @@ selection-section {
     align-items: center;
     }
 
+    /* Player's choice */
+    .result {
+        margin-top: 10vw;
+      }
+    /* Button used to restart game */
+    .restart-game  {
+        background:white;
+        padding: 10px 20px;
+        color: #d899da;
+        border-radius: 10px;
+        border-color: #d899da;
+        letter-spacing: 2px;
+        box-shadow: 2px 2px #58155a;
+      }
+      /* Sections explaining rules of the game */
+    .rules{
+        letter-spacing: 2px; 
+        display:flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 250px;
+        margin-bottom: 200px;
+      }
+
+      #rules {
+        margin-bottom: 20px;
+       }
+
+       /* Image of rules */
+       .image-rules img{
+        margin-bottom: 30px;
+        width: 30vw;
+        height:auto;
+        }
+
+        /* Footer */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 0px;
+            width: 100%;
+            background-color: #e834eb;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+    /* Media queries for screen of width: 375px and of 667px height */
+    @media only screen  and (device-width: 375px) 
+                        and (device-height: 667px) {
+                            /* Header */
+                            .header {
+                                flex-direction: row;
+                                height: 17vw !important;
+                            }
+                            /* Restart button */
+                            #restartButton{
+                                margin-left: 30px;
+                                text-wrap: nowrap;
+                            }
+                                
+                                    
+                            #ahref {
+                            margin-left: 10px;
+                            }
+                        }
+
+    /* Media queries for screen of width: 390px and of 884px height */
+    @media only screen and (device-width: 390px) and (device-height: 844px) {
+            /* Body */
+            .body {
+                font-size: 1rem !important;
+            }
+            /* Header */
+            .header {
+                flex-direction: row;
+                height: 17vw !important;
+            }
+            #ahref {
+                margin-left: 10px;
+                padding: auto;
+                color: #d899da;
+                letter-spacing: 1px;
+            }
+            /* Restart button */
+            #restartButton{
+                margin-left: 30px;
+                text-wrap: nowrap;
+            }
+    }
+    /* Media queries for screen of width: 360px and of 740px height */
+    @media only screen and (device-width: 360px) and (device-height: 740px) {
+        /* Header */
+        .header {
+            flex-direction: row;
+            height: 19vw !important;
+        }
+        #ahref {
+            margin-left: 10px !important;
+            padding: auto !important;
+            color: #d899da;
+            letter-spacing: 1px !important;
+       }
+        #restartButton{
+            margin-left: 30px;
+            text-wrap: nowrap;
+       }
+    }
+    /* Media queries for screen max-width: 600px */
+    @media screen and (max-width: 600px){
+        .rules{
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+            display:flex;
+            flex-direction: column;
+            width: 30%;
+        }
+        .image-rules img{
+            margin: auto;
+            width: 50vw;
+            height:auto;
+         }
+        .header {
+            flex-direction: row;
+            height: 14vw;
+        }
+        #logo-image {
+            display: none;
+         }
+        #header-text {
+            display: none;
+         }
+        #restartButton {  
+            margin-left: 60px;
+            background-color: white;
+            color:#e834eb
+         }
+        #ahref{
+            margin-right: 80px;
+            background-color: white;
+            color:#e834eb
+         }
+        #timer{
+            margin-bottom: 5%;
+         }
+        #gameCounter{
+            margin-bottom: 20px;
+         }
+        .selection-section{
+            margin-bottom:5%;
+            flex-direction: column;
+            align-items: center;
+         }
+        .button-option {
+            width: 40%;
+            height: auto;
+            border-color: #e834eb;
+            border-radius:10%;
+            margin:0.5%;
+            background-color: white;     
+        }
+        .score {
+            flex-direction: column;
+            align-items: center;
+        }
+        .choice {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;           
+        }
+        #rules{
+            text-decoration: underline;
+      }
+      .image-rules{
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            width: 30vw;
+        }
+  }
+  /* Media queries for screen max-width: 768px */
+  @media (max-width: 768px) {
+        #logo-image {
+            display: none;
+        }
+        #header-text {
+            display: none;
+        }
+        #restartButton {  
+            margin-left: 60px;
+            background-color: white;
+            color:#e834eb
+        }
+        #ahref{
+            margin-right: 80px;
+            background-color: white;
+            color:#e834eb
+        }
+    }
+  
+  
+  
+  
+
+
+    
+
+    
+    
+      
