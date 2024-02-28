@@ -29,6 +29,18 @@ var result_of_choice;
 function startTimer() {
     timerInterval = setInterval(updateTimer, 1000);
 }
+// Function to update Timer by subtracting seconds
+function updateTimer() {
+    timer--;
+    document.getElementById('time').innerText = timer;
+    if (timer <= 0) {
+        clearInterval(timerInterval);
+        alert("Time's up!")
+        endGame();
+    }
+}
+
+
 
 
 
