@@ -63,7 +63,7 @@ body {
     font-size: 1rem;
 }
 
-/* buttons used to select game options */
+/* Buttons used to select game options */
 .button-option {
     width: auto;
     height: auto;
@@ -72,20 +72,28 @@ body {
     margin:0.5%;
     background-color: white;
 }
-/* general style of all buttons */
+/* General style of all buttons */
 button {
     cursor: pointer;
 }
-/* change color of buttones when hover over them */
+/* Change color of buttones when hover over them */
 .button-option:hover {
     background-color: #eca3d5;
 }
-
-/* general look of the whole section where all the buttons with games sections */
+/* Section where all the buttons with games sections */
 selection-section {
     background-color: white;
     border-color: #e834eb;
     color:#e834eb;
     letter-spacing: 0.125rem;
     margin-bottom: 10px;
+}
+/* Display score */
+.score { 
+    display: flex;
+    gap: 30px;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    margin-right: 7%;
 }
