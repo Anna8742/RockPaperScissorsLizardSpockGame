@@ -202,6 +202,41 @@ selection-section {
             padding: 10px 0;
         }
 
+/* max-width: 375px */
+    @media screen and (max-width: 375px){ 
+
+            #ahref{
+                display: none;
+            }
+        
+            #restartButton {
+               
+               margin-left: 112px !important;
+                font-size: calc(1vw + 1vh);
+            }
+            #timer {
+                font-size: calc(1vw + 1vh);
+                margin-bottom:10px;
+            }
+        
+            .choice {
+                margin-bottom: 20px;
+            }
+        
+            .rules
+            { margin-top: 10px;
+            }
+        
+            .image-rules {
+                display: none;
+            }
+            .score {
+                margin-bottom: 5px;
+            }
+            .user{
+                margin-top: 0px; 
+            }
+        }
     
     /* Media queries for screen max-width: 600px */
     @media screen and (max-width: 600px){
