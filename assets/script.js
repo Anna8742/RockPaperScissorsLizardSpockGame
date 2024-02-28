@@ -24,6 +24,8 @@ var playerScore = 0;
 var roundsLeft = 10;
 // Variable to store the result of user's choice: winner, tie, looser
 var result_of_choice;
+// Variable to store players choice
+var playerChoice;
 
 // Function to apply time interval to timerInterval variable
 function startTimer() {
@@ -35,7 +37,7 @@ function updateTimer() {
     document.getElementById('time').innerText = timer;
     if (timer <= 0) {
         clearInterval(timerInterval);
-        alert("Time's up!")
+        alert("Time's up!");
         endGame();
     }
 }
