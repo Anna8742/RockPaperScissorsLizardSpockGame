@@ -86,6 +86,14 @@ body {
     margin-bottom: 20px;
  }
 
+/* Starting text */
+.starting-text {
+    font-size: calc(1vw + 1vh);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
 /* Buttons used to select game options */
 .button-option {
     width: auto;
