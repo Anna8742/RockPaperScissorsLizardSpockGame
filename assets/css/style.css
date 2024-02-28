@@ -37,6 +37,8 @@ body {
     box-shadow: 0.125rem 0.125rem 0.313rem #58155a;
 }
 
+
+
 /* Logo image */
 #logo-image {
     width: 10vw;
@@ -61,6 +63,13 @@ body {
     letter-spacing: 0.125rem;
     box-shadow: 0.125rem 0.125rem #58155a;
     font-size: 1rem;
+}
+
+/* image  */
+.image {
+    width: 6vw;
+    height: 6vw;
+    margin: 1vw;
 }
 
 /* Buttons used to select game options */
@@ -285,12 +294,7 @@ selection-section {
             margin:0.5%;
             background-color: white;     
         }
-        /* image  */
-        .image {
-            width: 6vw;
-            height: 6vw;
-            margin: 1vw;
-        }
+        
         .score {
             flex-direction: column;
             align-items: center;
