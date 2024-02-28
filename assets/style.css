@@ -44,6 +44,27 @@ body {
     border-color: #d899da;
 }
 
+/* Style for text inside of header */
+#header-text {
+    font-size: 1rem;
+}
+
+/* Styles to Rules button inside of header */
+#ahref {
+    text-decoration: none;
+    margin-right: 1vw;
+    background:white;
+    padding: 0.625rem 1.25rem;
+    color: #d899da;
+    border-radius: 0.625rem;
+    border-color: #d899da;
+    letter-spacing: 0.125rem;
+    box-shadow: 0.125rem 0.125rem #58155a;
+    font-size: 1rem;
+}
+
+
+
 
     
     
