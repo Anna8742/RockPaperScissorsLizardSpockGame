@@ -60,11 +60,11 @@ function play(playerChoice) {
         (playerChoice === 'scissors' && (computerChoice === 'paper' || computerChoice === 'lizard')) ||
         (playerChoice === 'lizard' && (computerChoice === 'spock' || computerChoice === 'paper')) ||
         (playerChoice === 'spock' && (computerChoice === 'rock' || computerChoice === 'scissors'))) {
-        result_of_choice= "YOU WIN!";
+        result_of_choice= "YOU WON THIS ROUND!";
         // Adding player's score
         playerScore++;
     } else {
-        result_of_choice= "YOU LOSE!";
+        result_of_choice= "YOU LOST THIS ROUND!";
         // Adding computer's score
         computerScore++;
     }

@@ -82,6 +82,7 @@ body {
  }
  /* Result of choice */
  .result_of_choice {
+    margin-top: 20px;
     margin-bottom: 20px;
  }
 
