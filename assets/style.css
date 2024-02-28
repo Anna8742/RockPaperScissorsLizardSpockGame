@@ -97,17 +97,26 @@ selection-section {
     align-items: center;
     margin-right: 7%;
 }
-/* Display username section */
+/* Display username in score section */
 .user {
     background:#d899da;
     padding: 10px 20px;
     color: white;
     border-radius: 10px;
 }
-/* Display computer section */
+/* Display computer in score section */
   .computer {
     background: #a577a6;
     padding: 10px 20px;
     color: white;
     border-radius: 10px;
   }
+
+  /* Style for section displaying selected choices" */
+  .choice {
+    gap: 30px;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    }
+
