@@ -71,6 +71,20 @@ body {
     height: 6vw;
     margin: 1vw;
 }
+/* Timer */
+.timer{
+            
+    margin-bottom: 20px;
+ }
+
+ /* Game counter */
+.gameCounter{
+    margin-bottom: 20px;
+ }
+ /* Result of choice */
+ .result_of_choice {
+    margin-bottom: 20px;
+ }
 
 /* Buttons used to select game options */
 .button-option {
@@ -283,16 +297,7 @@ selection-section {
             background-color: white;
             color:#e834eb
          }
-        #timer{
-            
-            margin-bottom: 20px;
-         }
-        #gameCounter{
-            margin-bottom: 20px;
-         }
-         #result_of_choice {
-            margin-bottom: 20px;
-         }
+        
         .selection-section{
             margin-top: 20px;
             margin-bottom:20px;
