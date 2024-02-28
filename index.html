@@ -39,8 +39,15 @@
   <!-- Display what user's choice -->
   <div id="result_of_choice"></div>
 
-  <!-- Display options to select: lizard, paper, rock, scissors, spock 
-    with linked to the button javascript function play(playerChoice) -->
+  <!-- Display buttons to select: lizard, paper, rock, scissors, spock 
+    with linked javascript function play(playerChoice) -->
+  <div class="options">
+    <button onclick = "play('lizard')" class="button-option" aria-label="lizard"><img src="images/lizard.png" class = "image" alt="image of lizard"></button>
+    <button onclick = "play('paper')" class="button-option" aria-label="paper"><img src="images/paper.png" class = "image" alt="image of paper"></button>
+    <button onclick = "play('rock')" class="button-option" aria-label="rock"><img src="images/rock.png" class = "image" alt="image of rock"></button>
+    <button onclick = "play('scissors')" class="button-option" aria-label="scissors"><img src="images/scissors.png " class = "image" alt="image of scissors"></button>
+    <button onclick = "play('spock')" class="button-option" aria-label="spock"><img src="images/spock.png" class = "image" alt="image of spock"></button>
+  </div>
 
 
 
