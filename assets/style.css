@@ -37,19 +37,19 @@ body {
     box-shadow: 0.125rem 0.125rem 0.313rem #58155a;
 }
 
-/* Styles for logo image */
+/* Logo image */
 #logo-image {
     width: 10vw;
     height: 10vw;
     border-color: #d899da;
 }
 
-/* Style for text inside of header */
+/* Text inside of header */
 #header-text {
     font-size: 1rem;
 }
 
-/* Styles to Rules button inside of header */
+/* 'Rules' button inside of header */
 #ahref {
     text-decoration: none;
     margin-right: 1vw;
@@ -63,7 +63,7 @@ body {
     font-size: 1rem;
 }
 
-/* style to the buttons to select game options */
+/* buttons used to select game options */
 .button-option {
     width: auto;
     height: auto;
@@ -72,11 +72,20 @@ body {
     margin:0.5%;
     background-color: white;
 }
-/* general style to all buttons */
+/* general style of all buttons */
 button {
     cursor: pointer;
 }
-/* style color change when hover over buttons */
+/* change color of buttones when hover over them */
 .button-option:hover {
     background-color: #eca3d5;
+}
+
+/* general look of the whole section where all the buttons with games sections */
+selection-section {
+    background-color: white;
+    border-color: #e834eb;
+    color:#e834eb;
+    letter-spacing: 0.125rem;
+    margin-bottom: 10px;
 }
