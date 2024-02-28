@@ -36,7 +36,15 @@ body {
     margin-bottom: 3%;
     box-shadow: 0.125rem 0.125rem 0.313rem #58155a;
 }
-    
+
+/* Styles for logo image */
+#logo-image {
+    width: 10vw;
+    height: 10vw;
+    border-color: #d899da;
+}
+
+
     
     
     /* image  */
