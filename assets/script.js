@@ -25,3 +25,10 @@ var roundsLeft = 10;
 // Variable to store the 
 var result_of_choice;
 
+// Function to apply time interval to timerInterval variable
+function startTimer() {
+    timerInterval = setInterval(updateTimer, 1000);
+}
+
+
+
