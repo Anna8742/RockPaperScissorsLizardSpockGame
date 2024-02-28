@@ -1,110 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <!-- Title -->
-    <title>Rock Paper Scissors Lizard Spock Game</title>
-    <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"/>
-      <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"/>
-      <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"/>
-      <link
-      rel="icon"
-      type="image/png"
-      sizes="512x512"
-      href="assets/favicon/android-chrome-512x512.png"/>
-      <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="assets/favicon/android-chrome-192x192.png"/>
 
-      <!-- Meta tags -->
-    <meta
-    name="keywords"
-    content="Rock Paper Scissors Lizard Spock Game"/>
-  <meta
-    name="description"
-    content="The element of chance makes the game exiting and interesting, as it's impossible to predict the outcome. "/>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <!-- Title -->
+  <title>Rock Paper Scissors Lizard Spock Game</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
 
-    </head>
+  <!-- Meta tags -->
+  <meta name="keywords" content="Rock Paper Scissors Lizard Spock Game" />
+  <meta name="description" content="Rock Paper Scissors Lizard Spock is a variation of Rock Paper Scissors made popular by the television show The Big Bang Theory. The game adds the lizard and spock so there are fewer ties when you play. 
+    The element of chance makes the game exiting and interesting, as it's impossible to predict the outcome. " />
+</head>
 
-    <body>
-        <!-- Name of the game-->
-        <h1>Rock | Paper | Scissors | Lizard | Spock Game</h1>
-
-        <!-- Rules of the game-->
-
-        <h2> Rock Paper Scissors Lizard Spock is a variation of Rock Paper Scissors made popular by the television show The Big Bang Theory.</h2>
-            
-            <h3>The rules are simple:</h3>
-            <ul style="list-style-type: none;">
-                <li>Scissors cuts paper.</li>
-                <li>Paper covers rock.</li>
-                <li>Rock crushes lizard.</li>
-                <li>Lizard poisons Spock.</li>
-                <li>Spock smashes scissors.</li>
-                <li>Scissors decapitates lizard.</li>
-                <li>Lizard eats paper.</li>
-                <li>Paper disproves Spock.</li>
-                <li>Spock vaporizes rock.</li>
-                <li>Rock crushes scissors.</li>
-            </ul>
-        
-        <!-- score -->
-        <div class = "score">
-            <!-- enter username-->
-            
-            <button onclick = "enterName()">Enter your name</button>
-            <!-- display username and score -->
-            <p class = "user" id="userName"> </p>
-            <span class = "user-points">0</span>
-            
-            <!-- display computer and it's score -->
-            <div class = "computer">COMPUTER </div>
-            <span class="computer-score">0</span>
-            </div>
-
-          <!-- Section with options to select -->
-          <section class = "options">
-            <button class="button-option"><img src="assets/images/lizard.png " class = "image" alt="image of lizard"></button>
-            <button class="button-option"><img src="assets/images/paper.png" class = "image" alt="image of paper"></button>
-            <button class="button-option"><img src="assets/images/rock.png" class = "image" alt="image of rock"></button>
-            <button class="button-option"><img src="assets/images/scissors.png " class = "image" alt="image of scissors"></button>
-            <button class="button-option"><img src="assets/images/spock.png" class = "image" alt="image of spock"></button>
-
-          </section>
-
-          <!-- choices of computer and user -->
-          <div class="choice">
-
-             <!-- display username and choice -->
-             <span class="player" id="player">Player</span>
-             <span class="player-choice">: Scissors</span>
- 
-             <p class="computer">COMPUTER'S CHOICE:   <span class="comp-choice">SCISSORS</span></p>
+<body>
  
 
-          </div>
+  <!-- Rules of the game-->
+  <h2> Rock Paper Scissors Lizard Spock is a variation of Rock Paper Scissors made popular by the television show The
+    Big Bang Theory.</h2>
 
-          <p class="result">You won!</p>
-          <button class="restart game">Restart game</button>
- 
-        <script src="assets/script.js"></script>
+  <h3>The rules are simple:</h3>
+  <ul style="list-style-type: none;">
+    <li>Scissors cuts paper.</li>
+    <li>Paper covers rock.</li>
+    <li>Rock crushes lizard.</li>
+    <li>Lizard poisons Spock.</li>
+    <li>Spock smashes scissors.</li>
+    <li>Scissors decapitates lizard.</li>
+    <li>Lizard eats paper.</li>
+    <li>Paper disproves Spock.</li>
+    <li>Spock vaporizes rock.</li>
+    <li>Rock crushes scissors.</li>
+  </ul>
 
-    </body>
-    </html>
+  <!-- score -->
+  <div class="score">
+    <!-- enter username-->
+
+    <button onclick="enterName()">Enter your name</button>
+    <!-- display username and score -->
+    <p class="user" id="userName"> </p>
+    <span class="user-points">0</span>
+
+    <!-- display computer and it's score -->
+    <div class="computer">COMPUTER </div>
+    <span class="computer-score">0</span>
+  </div>
+
+  <!-- Section with options to select -->
+  <section class="options">
+    <button class="button-option"><img src="assets/images/lizard.png " class="image" alt="image of lizard"></button>
+    <button class="button-option"><img src="assets/images/paper.png" class="image" alt="image of paper"></button>
+    <button class="button-option"><img src="assets/images/rock.png" class="image" alt="image of rock"></button>
+    <button class="button-option"><img src="assets/images/scissors.png " class="image" alt="image of scissors"></button>
+    <button class="button-option"><img src="assets/images/spock.png" class="image" alt="image of spock"></button>
+
+  </section>
+
+  <!-- choices of computer and user -->
+  <div class="choice">
+
+    <!-- display username and choice -->
+    <span class="player" id="player">Player</span>
+    <span class="player-choice">: Scissors</span>
+
+    <p class="computer">COMPUTER'S CHOICE: <span class="comp-choice">SCISSORS</span></p>
+
+
+  </div>
+
+  <p class="result">You won!</p>
+  <button class="restart game">Restart game</button>
+
+  <script src="assets/script.js"></script>
+
+</body>
+
+</html>
