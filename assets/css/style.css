@@ -212,9 +212,7 @@ selection-section {
             width: 30%;
         }
         .image-rules img{
-            margin: auto;
-            width: 50vw;
-            height:auto;
+            display: none;
          }
         .header {
             flex-direction: row;
