@@ -85,7 +85,7 @@ selection-section {
     background-color: white;
     border-color: #e834eb;
     color:#e834eb;
-    letter-spacing: 0.125rem;
+    letter-spacing: 2px;
     margin-bottom: 10px;
 }
 /* Display score */
@@ -97,3 +97,17 @@ selection-section {
     align-items: center;
     margin-right: 7%;
 }
+/* Display username section */
+.user {
+    background:#d899da;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+/* Display computer section */
+  .computer {
+    background: #a577a6;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+  }
