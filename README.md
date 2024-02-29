@@ -30,3 +30,8 @@ THE RULES SECTION
 
 ![Screenshot 2024-02-29 at 10 30 57](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/fee5e684-d203-4f14-9b30-27743b3d982e)
 
+FEATURES LEFT TO IMPLEMENT
+- Possibility to pause the game
+
+TESTING
+
