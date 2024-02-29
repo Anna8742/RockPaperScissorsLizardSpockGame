@@ -71,11 +71,16 @@ TECHNOLOGIES USED
 Languages: HTML5, CSS, JAVASCRIPT
 
 Programs: 
-        Responsinator - to verify responsiveness
-        GitHub - used for version control and hosting
-        Google Fonts - used to import fonts into the site
-        TinyPNG - used to compress image
-        W3C and Jshint - used for HTML, JavaScript and CSS validation
+
+-Responsinator - to verify responsiveness
+        
+-GitHub - used for version control and hosting
+
+-Google Fonts - used to import fonts into the site
+
+-TinyPNG - used to compress image
+
+-W3C and Jshint - used for HTML, JavaScript and CSS validation
 
 
 --- DEPLOYMENT ---
