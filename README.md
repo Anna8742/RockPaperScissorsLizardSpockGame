@@ -82,6 +82,8 @@ Programs:
 
 -W3C and Jshint - used for HTML, JavaScript and CSS validation
 
+-Google Developer Tools - Coverage to locate unused CSS styles
+
 
 --- DEPLOYMENT ---
 
