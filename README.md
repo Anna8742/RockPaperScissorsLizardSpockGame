@@ -48,10 +48,10 @@ Validator Testing:
   
 ![Screenshot 2024-02-29 at 10 44 57](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/5b90ec45-d168-458a-bbd8-eb718582846e)
 
-- Buttons testing
+- Buttons testing:
   All buttons were tested manually to ensure they perform specified task and they call the correct function
 
-- Browser testing
+- Browser testing:
   The game was tested standard browsers: Safari, Firefox, Chrome, Microsoft with no issues   
   recorded
 
