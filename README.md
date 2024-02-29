@@ -67,6 +67,7 @@ UFIXED BUGS
 - Safari might not display favicon
 
 TECHNOLOGIES USED
+
 Languages: HTML5, CSS, JAVASCRIPT
 
 Programs: 
