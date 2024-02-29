@@ -88,7 +88,7 @@ body {
 
 /* Starting text */
 .starting-text {
-    font-size: calc(1vw + 1vh);
+    font-size: 2.5vw;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -251,12 +251,16 @@ selection-section {
     
     /* Media queries for screen max-width: 600px */
     @media screen and (max-width: 600px){
+        .starting_text{
+            font-size: 4vw;
+        }
+        
         .rules{
             letter-spacing: 2px;
             margin-bottom: 40px;
             display:flex;
             flex-direction: row;
-            width: 30%;
+            width: 80%;
         }
         .image-rules img{
             display: none;
