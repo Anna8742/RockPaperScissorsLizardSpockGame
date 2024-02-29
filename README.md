@@ -23,6 +23,10 @@ THE GAME AREA
   
 ![Screenshot 2024-02-29 at 10 22 26](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/70efed09-d75a-4717-b779-2aaf15469c8d)
 
+THE RULES SECTION
+
+- The rules section is where the user will be able to see the rules of the game and see an image demonstrating the rules. 
 
 
+![Screenshot 2024-02-29 at 10 30 57](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/fee5e684-d203-4f14-9b30-27743b3d982e)
 
