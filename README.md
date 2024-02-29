@@ -14,5 +14,15 @@ EXISTING FEATURES
 - Rock Paper Scissors Lizard Spock Game website logo and Heading with added button to reset game and button to access rules of the games
   ![Screenshot 2024-02-29 at 10 15 07](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/56f7b149-948d-464e-afb1-fb6764e384eb)
 
+THE GAME AREA
+- This secion will allow the user to play the game. The user will be able to see the buttons displaying the options to select rock, paper, scissors, lizard and spock.
+- The user will be able to see the current score  and the choices that user and computer made
+- The overall score will be displayed as a prompt message.
+  ![Screenshot 2024-02-29 at 10 21 50](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/1765457b-db4a-4939-b248-32011407c933)
+
+  
+![Screenshot 2024-02-29 at 10 22 26](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/70efed09-d75a-4717-b779-2aaf15469c8d)
+
+
 
 
