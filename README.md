@@ -66,12 +66,55 @@ Validator Testing:
 UFIXED BUGS
 - Safari might not display favicon
 
+TECHNOLOGIES USED
+Languages: HTML5, CSS, JAVASCRIPT
+
+Programs: 
+        Responsinator - to verify responsiveness
+        GitHub - used for version control and hosting
+        Google Fonts - used to import fonts into the site
+        TinyPNG - used to compress image
+        W3C and Jshint - used for HTML, JavaScript and CSS validation
+
+
 --- DEPLOYMENT ---
 
-The site was deployed to GitHub pages. 
+The site was deployed to GitHub pages.
+
+Go to the repository on GitHub.com Select 'Settings' near the top of the page. Select 'Pages' from the menu bar on the left of the page. Under 'Source' select the 'Branch' dropdown menu and select the main branch. Once selected, click the 'Save'. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
 The live link can be found here - https://anna8742.github.io/RockPaperScissorsLizardSpockGame/
 
 --- CREDIT ---
+
+CONTENT:
+The information on how to play the game comes from Wikihow.com 
+https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock
+
+RESOURCES:
+
+The instruction how to attach function to the buttons comes from W3schools
+https://www.w3schools.com/jsref/event_onclick.asp
+
+Inspiration how to create a header from youtube tutorial:
+https://www.youtube.com/watch?v=CgxEA9iMMWI
+
+Inspiration how to implement JavaScript function on buttons comes from Project Portfolio video  from Code Institute
+
+MEDIA: 
+All images  are sources from the below websites with thanks to the graphic designers:
+- https://favicon.io/
+- https://www.freelogodesign.org/
+
+Acknowledgments:
+
+My mentor Antonio for his support and advice. The Code Institute slack community for their quick responses and very helpful feedback!
+
+
+
+
+
+- 
 
   
 
