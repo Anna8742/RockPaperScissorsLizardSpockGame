@@ -35,8 +35,18 @@ FEATURES LEFT TO IMPLEMENT
 
 TESTING: 
 Validator Testing:
-- HTML Passed:
+- HTML
+  No errors were returned with the official W3C Validator
  ![Screenshot 2024-02-29 at 10 35 08](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/148b98b4-67cc-4d56-8a77-ddadf5b635c0)
+- CSS
+  No errors were returned with (Jigsaw)validator
+  ![Screenshot 2024-02-29 at 10 36 21](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/6650e219-ad9a-452e-86ef-3694cb9446d2)
+- Javascript
+  No errors were found when passing through the official Jshint validator
+  The following metrics were returned:
+  
+![Screenshot 2024-02-29 at 10 44 57](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/5b90ec45-d168-458a-bbd8-eb718582846e)
+
 
   
 
