@@ -115,13 +115,7 @@ button {
     width: 50%;
     }
 
-selection-section {
-    background-color: white;
-    border-color: #e834eb;
-    color:#e834eb;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-}
+
 /* Display score */
 .score { 
     display: flex;
