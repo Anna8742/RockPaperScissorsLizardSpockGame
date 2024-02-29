@@ -26,6 +26,7 @@ var roundsLeft = 10;
 var result_of_choice;
 // Variable to store players choice
 var playerChoice;
+ 
 
 // Function to apply time interval to timerInterval variable
 function startTimer() {
@@ -47,27 +48,23 @@ function play(playerChoice) {
     clearInterval(timerInterval);
     // Randomly select computer's choice and assign to variable
     var computerChoice = choices[Math.floor(Math.random() * choices.length)];
-    // Print compute'r choice to HTML document
-    document.getElementById('comp-choice').innerHTML = `${computerChoice}`.toUpperCase();
-    // Print user's choice to HTML document
-    document.getElementById('result').innerHTML = `${playerChoice}`.toUpperCase();
     // Determine the result based on player's and computer's choice
     if (playerChoice === computerChoice) {
-        result_of_choice= "YOU CHOSE: " + playerChoice.toUpperCase()+ " COMPUTER CHOSE: " 
-        + computerChoice.toUpperCase() +  ". IT'S A TIE! &#128527;";
+        result_of_choice= "YOU CHOSE: " + playerChoice.toUpperCase()+ ", COMPUTER CHOSE: " 
+        + computerChoice.toUpperCase() +  ". IT'S A TIE!";
     } else if (
         (playerChoice === 'rock' && (computerChoice === 'scissors' || computerChoice === 'lizard')) ||
         (playerChoice === 'paper' && (computerChoice === 'rock' || computerChoice === 'spock')) ||
         (playerChoice === 'scissors' && (computerChoice === 'paper' || computerChoice === 'lizard')) ||
         (playerChoice === 'lizard' && (computerChoice === 'spock' || computerChoice === 'paper')) ||
         (playerChoice === 'spock' && (computerChoice === 'rock' || computerChoice === 'scissors'))) {
-        result_of_choice=  "YOU CHOSE: " + playerChoice.toUpperCase()+ " COMPUTER CHOSE: " 
-        + computerChoice.toUpperCase() + ". YOU WON THIS ROUND! &#128526;";
+        result_of_choice=  "YOU CHOSE: " + playerChoice.toUpperCase()+ ", COMPUTER CHOSE: " 
+        + computerChoice.toUpperCase() + ". YOU WON THIS ROUND! :-D ";
         // Adding player's score
         playerScore++;
     } else {
-        result_of_choice= "YOU CHOSE: " + playerChoice.toUpperCase()+ " COMPUTER CHOSE: " 
-        + computerChoice.toUpperCase() + ". YOU LOST THIS ROUND! &#128545;";
+        result_of_choice= "YOU CHOSE: " + playerChoice.toUpperCase()+ ", COMPUTER CHOSE: " 
+        + computerChoice.toUpperCase() + ". YOU LOST THIS ROUND! :-( ";
         // Adding computer's score
         computerScore++;
     }
