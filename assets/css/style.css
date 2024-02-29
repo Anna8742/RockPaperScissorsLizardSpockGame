@@ -157,6 +157,7 @@ selection-section {
 
   /* Style for section displaying selected choices" */
   .choice {
+    
     gap: 30px;
     margin-top:10px;
     display: flex;
@@ -242,7 +243,7 @@ selection-section {
             }
             .score {
                 margin-bottom: 5px;
-                gap: 5px;g
+                gap: 5px;
             }
             .user{
                 margin-top: 0px; 
@@ -306,12 +307,7 @@ selection-section {
             flex-direction: row;
             align-items: center;
         }
-        .choice {
-            margin: 10px;
-            flex-direction: row;
-            align-items: center;
-            margin-bottom: 40px;           
-        }
+        
         #rules{
             text-decoration: underline;
       }

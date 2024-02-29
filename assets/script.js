@@ -48,6 +48,10 @@ function play(playerChoice) {
     clearInterval(timerInterval);
     // Randomly select computer's choice and assign to variable
     var computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    // Print compute'r choice to HTML document
+    document.getElementById('comp-choice').innerHTML = `${computerChoice}`.toUpperCase();
+    // Print user's choice to HTML document
+    document.getElementById('result').innerHTML = `${playerChoice}`.toUpperCase();
     // Determine the result based on player's and computer's choice
     if (playerChoice === computerChoice) {
         result_of_choice= "YOU CHOSE: " + playerChoice.toUpperCase()+ ", COMPUTER CHOSE: " 
