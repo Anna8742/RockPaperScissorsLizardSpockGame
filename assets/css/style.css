@@ -16,7 +16,7 @@ body {
     font-style: normal;
     font-variation-settings: "slnt" 0;
     color:#e834eb;
-    font-size: 1rem;
+    font-size: calc(1vw + 1vh);
     position: relative;
     min-height: 100vh;
     }
@@ -61,7 +61,7 @@ body {
     border-color: #d899da;
     letter-spacing: 0.125rem;
     box-shadow: 0.125rem 0.125rem #58155a;
-    font-size: 1rem;
+    font-size: calc(1vw + 1vh);
 }
 
 /* image  */
@@ -127,7 +127,7 @@ selection-section {
 .score { 
     display: flex;
     gap: 30px;
-    margin-top:20px;
+    margin-top:10px;
     display: flex;
     align-items: center;
     margin-right: 7%;
@@ -158,7 +158,7 @@ selection-section {
   /* Style for section displaying selected choices" */
   .choice {
     gap: 30px;
-    margin-top:20px;
+    margin-top:10px;
     display: flex;
     align-items: center;
     }
@@ -176,6 +176,7 @@ selection-section {
         border-color: #d899da;
         letter-spacing: 2px;
         box-shadow: 2px 2px #58155a;
+        font-size: calc(1vw + 1vh);
       }
       /* Sections explaining rules of the game */
     .rules{
@@ -183,8 +184,8 @@ selection-section {
         display:flex;
         flex-direction: row;
         text-align: center;
-        margin-top: 250px;
-        margin-bottom: 200px;
+        margin-top: 80px;
+        margin-bottom: 20px;
       }
 
       #rules {
@@ -229,6 +230,7 @@ selection-section {
         
             .choice {
                 margin-bottom: 20px;
+                gap: 5px;
             }
         
             .rules
@@ -240,6 +242,7 @@ selection-section {
             }
             .score {
                 margin-bottom: 5px;
+                gap: 5px;g
             }
             .user{
                 margin-top: 0px; 
@@ -252,7 +255,7 @@ selection-section {
             letter-spacing: 2px;
             margin-bottom: 40px;
             display:flex;
-            flex-direction: column;
+            flex-direction: row;
             width: 30%;
         }
         .image-rules img{
@@ -295,11 +298,13 @@ selection-section {
         }
         
         .score {
-            flex-direction: column;
+            margin: 10px;
+            flex-direction: row;
             align-items: center;
         }
         .choice {
-            flex-direction: column;
+            margin: 10px;
+            flex-direction: row;
             align-items: center;
             margin-bottom: 40px;           
         }
