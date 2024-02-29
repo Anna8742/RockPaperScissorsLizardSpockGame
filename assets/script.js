@@ -53,18 +53,21 @@ function play(playerChoice) {
     document.getElementById('result').innerHTML = `${playerChoice}`.toUpperCase();
     // Determine the result based on player's and computer's choice
     if (playerChoice === computerChoice) {
-        result_of_choice= "YOU CHOSE" + {playerChoice}.toUpperCase()+ "IT'S A TIE!";
+        result_of_choice= "YOU CHOSE: " + playerChoice.toUpperCase()+ " COMPUTER CHOSE: " 
+        + computerChoice.toUpperCase() +  ". IT'S A TIE! &#128527;";
     } else if (
         (playerChoice === 'rock' && (computerChoice === 'scissors' || computerChoice === 'lizard')) ||
         (playerChoice === 'paper' && (computerChoice === 'rock' || computerChoice === 'spock')) ||
         (playerChoice === 'scissors' && (computerChoice === 'paper' || computerChoice === 'lizard')) ||
         (playerChoice === 'lizard' && (computerChoice === 'spock' || computerChoice === 'paper')) ||
         (playerChoice === 'spock' && (computerChoice === 'rock' || computerChoice === 'scissors'))) {
-        result_of_choice=  "YOU CHOSE" + {playerChoice}.toUpperCase()+"YOU WON THIS ROUND!";
+        result_of_choice=  "YOU CHOSE: " + playerChoice.toUpperCase()+ " COMPUTER CHOSE: " 
+        + computerChoice.toUpperCase() + ". YOU WON THIS ROUND! &#128526;";
         // Adding player's score
         playerScore++;
     } else {
-        result_of_choice= "YOU CHOSE" + {playerChoice}.toUpperCase()+"YOU LOST THIS ROUND!";
+        result_of_choice= "YOU CHOSE: " + playerChoice.toUpperCase()+ " COMPUTER CHOSE: " 
+        + computerChoice.toUpperCase() + ". YOU LOST THIS ROUND! &#128545;";
         // Adding computer's score
         computerScore++;
     }
