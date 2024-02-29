@@ -33,5 +33,10 @@ THE RULES SECTION
 FEATURES LEFT TO IMPLEMENT
 - Possibility to pause the game
 
-TESTING
+TESTING: 
+Validator Testing:
+- HTML Passed:
+ ![Screenshot 2024-02-29 at 10 35 08](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/148b98b4-67cc-4d56-8a77-ddadf5b635c0)
+
+  
 
