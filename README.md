@@ -52,7 +52,7 @@ Validator Testing:
   All buttons were tested manually to ensure they perform specified task and they call the correct function
 
 - Browser testing:
-  The game was tested standard browsers: Safari, Firefox, Chrome, Microsoft with no issues   
+  The game was tested with standard browsers: Safari, Firefox, Chrome, Microsoft with no issues   
   recorded
 
 - Device Testing:
