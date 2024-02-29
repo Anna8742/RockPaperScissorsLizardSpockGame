@@ -157,10 +157,6 @@ button {
     align-items: center;
     }
 
-    /* Player's choice */
-    .result {
-        margin-top: 10vw;
-      }
     /* Button used to restart game */
     .restart-game  {
         background:white;
