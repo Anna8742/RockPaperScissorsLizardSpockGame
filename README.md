@@ -11,7 +11,7 @@ Rock Paper Scissors Lizard Spock Game is a fully responsive game that will allow
 - Score tracking and declaring if the user is the winner, looser or if it's a tie.
 
 EXISTING FEATURES
-- Rock Paper Scissors Lizard Spock Game website logo and Heading with added button to reset game and button to access rules of the games
+- Rock Paper Scissors Lizard Spock Game website logo and Heading with added button to reset the game and button to access rules of the game
   ![Screenshot 2024-02-29 at 10 15 07](https://github.com/Anna8742/RockPaperScissorsLizardSpockGame/assets/31070626/56f7b149-948d-464e-afb1-fb6764e384eb)
 
 THE GAME AREA
