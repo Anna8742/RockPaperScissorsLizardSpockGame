@@ -53,7 +53,7 @@ function play(playerChoice) {
     document.getElementById('result').innerHTML = `${playerChoice}`.toUpperCase();
     // Determine the result based on player's and computer's choice
     if (playerChoice === computerChoice) {
-        result_of_choice= "YOU CHOSE `${playerChoice}`.toUpperCase() IT'S A TIE!";
+        result_of_choice= "YOU CHOSE" + {playerChoice}.toUpperCase()+ "IT'S A TIE!";
     } else if (
         (playerChoice === 'rock' && (computerChoice === 'scissors' || computerChoice === 'lizard')) ||
         (playerChoice === 'paper' && (computerChoice === 'rock' || computerChoice === 'spock')) ||
